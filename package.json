@@ -1,28 +1,28 @@
 {
     "name": "sunny-cafe",
     "version": "1.0.0",
-    "description": "Website for Sunny Café",
+    "description": "Website for Sunny Cafe",
     "main": "script.js",
     "scripts": {
       "test": "jest",
       "build": "webpack --mode production",
-      "start": "webpack serve --mode development",
+      "start": "webpack-dev-server --mode development",
       "lint": "eslint ."
     },
     "keywords": ["cafe", "coffee", "website"],
     "author": "Your Name",
     "license": "ISC",
     "devDependencies": {
-      "@babel/core": "^7.23.0",
-      "@babel/preset-env": "^7.22.20",
-      "babel-loader": "^9.1.3",
-      "css-loader": "^6.8.1",
-      "eslint": "^8.50.0",
-      "html-webpack-plugin": "^5.5.3",
-      "jest": "^29.7.0",
-      "style-loader": "^3.3.3",
-      "webpack": "^5.88.2",
-      "webpack-cli": "^5.1.4",
-      "webpack-dev-server": "^4.15.1"
+      "@babel/core": "^7.9.0",
+      "@babel/preset-env": "^7.9.5",
+      "babel-loader": "^8.1.0",
+      "css-loader": "^3.5.2",
+      "eslint": "^6.8.0",
+      "html-webpack-plugin": "^4.2.0",
+      "jest": "^25.3.0",
+      "style-loader": "^1.1.3",
+      "webpack": "^4.42.1",
+      "webpack-cli": "^3.3.11",
+      "webpack-dev-server": "^3.10.3"
     }
   }
