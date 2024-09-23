@@ -4,12 +4,9 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh '''
-                source ~/.nvm/nvm.sh
-                nvm install 16
-                nvm use 16
-                npm install
-                '''
+                
+                sh 'npm install'
+                sh 'npm run build'
             }
         }
         stage('Test') {
