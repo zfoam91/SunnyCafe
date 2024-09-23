@@ -1,0 +1,82 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFF3E0; /* Light cream */
+}
+
+header {
+    background-color: #FFB74D; /* Warm yellow */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Lobster', cursive;
+    color: #6D4C41; /* Rich brown */
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #6D4C41; /* Rich brown */
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #FF8A65; /* Soft orange */
+}
+
+h2, h3 {
+    color: #6D4C41; /* Rich brown */
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info p {
+    font-size: 1.1em;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #6D4C41; /* Rich brown */
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+textarea {
+    padding-top: 5px;
+    padding-bottom: 15px;
+    resize: vertical;
+}
+
+.btn {
+    background-color: #FF8A65; /* Soft orange */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #FFB74D; /* Warm yellow */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #FFB74D; /* Warm yellow */
+    color: #6D4C41; /* Rich brown */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
