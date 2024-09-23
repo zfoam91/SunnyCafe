@@ -1,21 +1,20 @@
 {
-    "name": "sunny-cafe",
-    "version": "1.0.0",
-    "description": "A simple web application for Sunny Café",
-    "main": "index.html",
-    "scripts": {
-      "start": "http-server . -p 8080",
-      "build": "mkdir -p dist && cp -R src/* dist/ && cp index.html dist/",
-      "test": "wdio wdio.conf.js",
-      "test:run": "wdio run wdio.conf.js"
-    },
-    "devDependencies": {
-      "http-server": "^14.1.0",
-      "webdriverio": "^7.0.0",
-      "chai": "^4.3.4",
-      "mocha": "^8.4.0"
-    },
-    "author": "Your Name",
-    "license": "MIT"
-  }
-  
+  "name": "sunny-cafe",
+  "version": "1.0.0",
+  "description": "A simple web application for Sunny Café",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server . -p 8080",
+    "build": "mkdir -p dist && cp -R src/* dist/ && cp index.html dist/",
+    "test": "wdio wdio.conf.js",
+    "test:run": "wdio run wdio.conf.js"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.0",
+    "webdriverio": "^7.0.0",
+    "chai": "^4.3.4",
+    "mocha": "^8.4.0"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
